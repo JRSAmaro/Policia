@@ -1,0 +1,29 @@
+TESTE PRÁTICO
+INFRAESTRUTURA
+
+1) Montar um ambiente utilizando o Docker Compose, tendo como sistema operacional base
+qualquer distribuição Linux, de modo a levantar um os seguintes servidores:
+a) Firewall
+b) Proxy Reverso
+c) Web_Server_01
+d) Web_Server_02
+e) Zabbix
+Usar as regras que julgar pertinente considerando políticas de segurança e performance,
+com base no diagrama a seguir:
+
+(Cloul)--------Router1--------Firewall--------VLAN10--------Proxy Reverso--------VLAN20--------Web Server 1
+          201.10.151.100/30       |         192.168.1.x                        192.168.2.x     Web Server 2
+                                  |
+                               VLAN30
+                            10.1.1.x\24
+                            |         |
+                          Laptop    Zabbix
+
+2) Realizar as configurações necessárias para que o Laptop acesse:
+a) www.lab.local/pag1 - página contida no Web_Server_01
+b) www.lab.local/pag2 - página contida no Web_Server_02
+Considere o seguinte:
+a) O Web_Server_01 deverá exibir uma página com o número do CPF.
+b) O Web_Server_02 deverá exibir uma página com o e-mail.
+
+3) Ativar o monitoramento dos serviços e dispositivos contidos no diagrama acima no Zabbix.
