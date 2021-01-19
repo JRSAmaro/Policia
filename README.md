@@ -55,5 +55,8 @@ Primeiros Comandos
 - Reinicie o windows
 - Abra o docker/tertminal
 - Baixe a imagem do sistema operacional "docker pull ubuntu"
-- Crie o container "docker run -it --name Policia ubuntu"
-- 
+- Crie o container "docker run -it --name Firewall ubuntu"
+- Crie o container "docker run -it --name Proxy_Reverso ubuntu"
+- Crie o container "docker run -it --name Web_Server_01 ubuntu"
+- Crie o container "docker run -it --name Web_Server_02 ubuntu"
+- Crie o container "docker run -it --name Zabixx ubuntu"
