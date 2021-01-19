@@ -60,3 +60,9 @@ Primeiros Comandos
 - Crie o container "docker run -it --name Web_Server_01 ubuntu"
 - Crie o container "docker run -it --name Web_Server_02 ubuntu"
 - Crie o container "docker run -it --name Zabixx ubuntu"
+- Congigurar Vlans
+- Configurar Firewall
+- Configurar Proxy Reverso
+- Configurar WebServers
+- Configurar Zabbix
+- Teste do site
