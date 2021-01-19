@@ -1,0 +1,1 @@
+Crie o container Zabbix usando o seguinte comando "docker run -it --name Zabbix ubuntu"
