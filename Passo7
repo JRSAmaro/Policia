@@ -1,0 +1,1 @@
+Crie o container WebServer01 usando o seguinte comando "docker run -it --name Web_Server_01 ubuntu"
