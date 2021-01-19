@@ -54,6 +54,6 @@ Instale o docker
 Levante a rede virtual
 Reinicie o windows
 Abra o docker/tertminal
-1- Baixe a imagem do sistema operacional "docker pull ubuntu"
-2- Crie o container "docker run -it --name Policia ubuntu"
-3- 
+- Baixe a imagem do sistema operacional "docker pull ubuntu"
+- Crie o container "docker run -it --name Policia ubuntu"
+- 
