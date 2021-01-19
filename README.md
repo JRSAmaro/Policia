@@ -50,10 +50,10 @@ Primeiros Comandos
 - docker rmi -f
 
 # Passo a Passo
-Instale o docker
-Levante a rede virtual
-Reinicie o windows
-Abra o docker/tertminal
+- Instale o docker
+- Levante a rede virtual
+- Reinicie o windows
+- Abra o docker/tertminal
 - Baixe a imagem do sistema operacional "docker pull ubuntu"
 - Crie o container "docker run -it --name Policia ubuntu"
 - 
